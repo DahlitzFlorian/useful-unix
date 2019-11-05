@@ -25,3 +25,13 @@ That's why I created an alias for that:
 ```bash
 alias open="xdg-open"
 ```
+
+# Git Aliases
+
+There exist a few git commands I use quite frequently.
+For those commands I created aliases, so that I don't have to type so many characters.
+
+```bash
+alias gs="git status"
+alias gd="git diff"
+```
