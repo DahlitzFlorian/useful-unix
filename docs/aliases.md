@@ -35,3 +35,15 @@ For those commands I created aliases, so that I don't have to type so many chara
 alias gs="git status"
 alias gd="git diff"
 ```
+
+
+# Copy and Paste to Clipboard
+
+`xclip` is a tool, which helps you copying and pasting content from stdout and to stdin.
+You may need to install it through `apt` or the package manager of your distro.
+As I see myself quite often in the situation, that I want to copy such content to clipboard and paste content from the clipboard to stdin, I created aliases for them:
+
+```bash
+alias c="xclip -selection clipboard"
+alias p="xclip -selection clipboard -o"
+```
